@@ -6,12 +6,12 @@ let flagPress=false
 const pressTimer = {start:null,end:null}
 
 
-const pressStart = (e) =>{
+const pressScreenStart = (e) =>{
   console.log('touch start')
   pressTimer.start=new Date().getTime()
   
 }
-const pressEnd = (e) =>{
+const pressScreenEnd = (e) =>{
     pressTimer.end=new Date().getTime()
   console.log('touch end')
 
@@ -30,5 +30,5 @@ const pressEnd = (e) =>{
 
 }
 
-pressArea.addEventListener('touchstart',pressStart)
-pressArea.addEventListener('touchend',pressEnd)
+pressArea.addEventListener('touchstart',pressScreenStart)
+pressArea.addEventListener('touchend',pressScreenEnd)

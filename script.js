@@ -1,8 +1,8 @@
 
 
 
-const originalText ={value:'כל כך פשוט לקרוא משפט'} 
-const gibrishText ={value:'לכ כך שפוט קרלו שטמש'} 
+const originalText ={value:'אני יודע לקרוא'} 
+const gibrishText ={value:'אני דוע קרלו'} 
 const text = document.querySelector('#text')
 
 

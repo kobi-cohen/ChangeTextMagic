@@ -5,8 +5,14 @@
 div{
     width: 90%;
 }
+.textBox{
+    position: relative;
+    top:60rem;
+    left: 5rem;
+    
+}
 p{
-    font-size: 22rem;
+    font-size: 10rem;
     font-family: sans-serif;
     text-align: right;
 }
@@ -16,7 +22,18 @@ p{
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color:red;
-    opacity: 0.3;
+    background-color:transparent;
+
+}
+.main{
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./asstets/png/whatsappBlank.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
