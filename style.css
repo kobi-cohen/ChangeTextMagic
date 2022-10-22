@@ -27,12 +27,21 @@ p{
     font-family: sans-serif;
     text-align: right;
 }
+.blockArea{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:transparent;
+}
 .pressArea{
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100vw;
-    height: 20vh;
+    width: 40vw;
+    height: 15vh;
     background-color:transparent;
 
 }
