@@ -2,6 +2,18 @@
     box-sizing: border-box;
     font-size: 16.5%;
 }
+.main{
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./asstets/png/whatsappBlank.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 div{
     width: 90%;
 }
@@ -23,17 +35,5 @@ p{
     width: 100vw;
     height: 100vh;
     background-color:transparent;
-
-}
-.main{
-    background-color: greenyellow;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('./asstets/png/whatsappBlank.png');
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
